@@ -1,0 +1,16 @@
+@import '../variables';
+
+.NewsSingle {
+    &:last-child{
+        margin-bottom: 1rem !important;
+    }
+}
+
+@media (min-width: $lg) {
+    .NewsSingle{
+        &:nth-child(4), &:nth-child(5), &:nth-child(9), &:nth-child(10), &:nth-child(14), &:nth-child(15), &:nth-child(19), &:nth-child(20) {
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+    }
+}

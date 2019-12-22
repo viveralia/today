@@ -1,0 +1,15 @@
+@import '../variables';
+
+footer{
+    border-top: 1px solid $lightestGrey;
+    color: $lighterGrey;
+    .emoji{
+        font-size: 70%;
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+    .fa-react{
+        color: #61dafb;
+        padding-left: 2px;
+    }
+}

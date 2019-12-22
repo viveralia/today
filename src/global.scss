@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Unna:400,700&display=swap');
+@import 'variables';
+
+body {
+  font-family: $sansSerif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: $grey;
+}
+
+a{
+  color: $grey;
+  transition: color .25s ease;
+  will-change: color;
+  &:hover{
+    color: #000;
+    text-decoration: none;
+  }
+}
+
+@media (min-width: $xl) {
+  .container-fluid{
+    padding-left: 3.5%;
+    padding-right: 3.5%;
+  }
+}
